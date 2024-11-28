@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Recursos Humanos</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Recursos Humanos</h1>
+        <p>Bienvenido al módulo de gestión de aplicantes.</p>
+        
+        <h2>Filtrar Aplicantes</h2>
+        <form id="applicantForm">
+            <label for="filterName">Nombre del Aplicante:</label>
+            <input type="text" id="filterName" name="filterName" placeholder="Ejemplo: Juan Pérez">
+            <button type="submit">Buscar</button>
+        </form>
+        
+        <h3>Lista de Aplicantes:</h3>
+        <ul id="applicantList">
+            <li>No hay aplicantes registrados.</li>
+        </ul>
+        
+        <a href="index.html" class="logout">Cerrar Sesión</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Visitante</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Visitante</h1>
+        <p>Consulta vacantes y aplica según tu perfil.</p>
+        
+        <h2>Filtrar Vacantes</h2>
+        <form id="filterForm">
+            <label for="filterKeyword">Palabra Clave:</label>
+            <input type="text" id="filterKeyword" name="filterKeyword" placeholder="Ejemplo: Ingeniería">
+            <button type="submit">Filtrar</button>
+        </form>
+        
+        <h3>Lista de Vacantes:</h3>
+        <ul id="vacancyList">
+            <li>Ejemplo: Ingeniero Civil - Activa</li>
+            <li>Ejemplo: Analista de Datos - Inactiva</li>
+        </ul>
+
+        <a href="index.html" class="logout">Cerrar Sesión</a>
+    </div>
+</body>
+</html>

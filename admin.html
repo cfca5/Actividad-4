@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Administración</h1>
+        <p>Bienvenido, Administrador</p>
+
+        <h2>Gestión de Vacantes</h2>
+        <form id="vacancyForm">
+            <label for="vacancyName">Nombre de Vacante:</label>
+            <input type="text" id="vacancyName" name="vacancyName" placeholder="Ejemplo: Ingeniero Civil">
+            
+            <label for="vacancyStatus">Estado:</label>
+            <select id="vacancyStatus" name="vacancyStatus">
+                <option value="active">Activa</option>
+                <option value="inactive">Inactiva</option>
+            </select>
+            
+            <button type="submit">Crear Vacante</button>
+        </form>
+        
+        <h3>Lista de Vacantes:</h3>
+        <ul id="vacancyList">
+            <li>No hay vacantes disponibles.</li>
+        </ul>
+        
+        <a href="index.html" class="logout">Cerrar Sesión</a>
+    </div>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>
